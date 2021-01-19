@@ -1,0 +1,144 @@
+body {
+  overflow-x: hidden;
+}
+
+#title {
+  background-color: #a3d2ca;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+#info {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 1.2rem;
+  padding: 3%;
+}
+
+/* Navigation Bar */
+.navbar-brand {
+  font-family: 'Sacramento', cursive;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.navbar {
+  padding: 1.7%;
+}
+
+nav .navbar-nav li a {
+  color: white !important;
+}
+
+.nav-link {
+  font-size: 1.3rem;
+}
+
+/* Title */
+.img-header {
+  width: 70%;
+  border: 3px solid white;
+}
+
+@media (max-width: 1028px) {
+  #info {
+    text-align: center;
+  }
+
+  @media (min-width: 1028px) {
+    .img-header {
+      width: 50%;
+    }
+  }
+
+  #ontbijt {
+    text-align: center;
+  }
+}
+
+/* Info */
+.tijsenkris {
+  width: 50%;
+  padding-left: 6%;
+}
+
+.tekstinfo {
+  padding-left: 6%;
+}
+
+.par-info {
+  margin-bottom: 0.4rem;
+}
+
+/* Testimonials */
+#reviews {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  text-align: center;
+  background-color: #a3d2ca;
+}
+
+.reviewer {
+  font-size: 1rem;
+}
+
+.testimonial-image {
+  width: 40px;
+  border-radius: 80%;
+  margin: 10px;
+}
+
+.carousel-item {
+  padding: 3% 17% 2%;
+}
+
+/* Ontbijt */
+#ontbijt {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 1.2rem;
+  padding: 3%;
+}
+
+.ontbijtlink {
+  color: #008891;
+}
+
+.ontbijtlink:hover {
+  color: #a3d2ca;
+}
+
+#ontbijt a {
+  margin: 0 2.5%;
+}
+
+.ontbijt-pic {
+  width: 80%;
+}
+
+/* Footer */
+#contact {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 0.9rem;
+  padding-top: 1.5%;
+  padding-bottom: 1%;
+  background-color: #a3d2ca;
+}
+
+.pfooter {
+  color: #000;
+  font-size: 0.7rem;
+  font-weight: bold;
+}
+
+.fabfoot {
+  margin: 10px 6px 30px;
+  color: #000;
+}
+
+.fabfoot:hover {
+  color: #fff;
+}
